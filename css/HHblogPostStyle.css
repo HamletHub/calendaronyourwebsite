@@ -1,0 +1,54 @@
+@charset "UTF-8";
+body {
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+#mainwrapper header {
+	/*Header */
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+#content #mainContent h3 {
+	/*Captions ot Taglines */
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+#content #mainContent p {
+	/* All paragraphs under maincontent */
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+#content #mainContent #authorInfo h2, #content #mainContent #authorInfo p {
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+footer article  {
+	/* Footer articles */
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+footer article h3  {
+	/* Footer article titles */
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+.fluid.hero.heroHeader a .fluid.logo.textStyle {
+	padding-top: auto;
+	padding-bottom: auto;
+	padding-left: auto;
+	padding-right: auto;
+}
+/* Changing this to put sidebar next to box display - these two widths plus padding should equal 100% */
+.hhsidebar {
+	float: left;
+	width: 23%;
+	padding-left: 0 px;
+	padding-right: 0 px;
+}
+.calendarbox {
+	display: inline-block;
+	width: 66%;
+	padding-left: 0 px;
+	padding-right: 0 px;
+
+}
+
+/* Tablet view */
+@media screen and (max-width:769px){
+}
+/* Mobile view */
+@media screen and (max-width:480px){
+}
