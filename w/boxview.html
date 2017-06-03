@@ -1,0 +1,195 @@
+<!doctype html>
+
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+
+<!--[if gt IE 8]><!-->
+
+<html class="">
+
+<!--<![endif]-->
+
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="Hubcoding Demo Calendar">
+
+<meta name="keywords" content="HamletHub">
+
+<meta name="author" content="Hubcoding">
+
+<title>HamletHub Demo Calendar</title>
+<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
+<link href="../boilerplate.css" rel="stylesheet" type="text/css">
+
+<link href="../portfolioResponsive.css" rel="stylesheet" type="text/css">
+
+<link href="../portfolioStyle.css" rel="stylesheet" type="text/css">
+<link href="../css/HHblogPostStyle.css" rel="stylesheet" type="text/css">
+
+<!-- 
+
+To learn more about the conditional comments around the html tags at the top of the file:
+
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+
+* insert the link to your js here
+
+* remove the link below to the html5shiv
+
+* add the "no-js" class to the html tags at the top
+
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+
+-->
+
+<!--[if lt IE 9]>
+
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+<![endif]-->
+
+<script src="../respond.min.js"></script>
+
+
+
+<!-- Import any font of your choice-->
+
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+
+<!--<script>var __adobewebfontsappname__="dreamweaver"</script>
+
+<script src="http://use.edgefonts.net/montserrat:n4:default;alice:n4:default.js" type="text/javascript"></script>-->
+
+</head>
+
+
+
+<body>
+
+<!--************************************************************************
+
+Container starts here
+
+****************************************************************************-->
+
+<div class="gridContainer clearfix"> 
+
+  <!--************************************************************************
+
+    HERO Section starts here
+
+    ****************************************************************************-->
+
+<!--The nav on top is 106 px high, so add the height of the banner, and set height for header below-->
+  <header class="fluid hero heroHeader" style="height: 371px; background: white;">
+
+ <!--Add you logo here-->
+      <a href="http://calendar.hubcoding.com/" target="_blank" title="Demo">
+
+    <figure class="fluid logo textStyle">
+    	<!-- <img src="../images/demo-calendar-logo188x62.png" alt="Demo"> --> 
+    </figure>
+
+    </a>
+
+    <nav class="fluid topNav">
+      <!-- Customize your navigation links-->
+      <ul class="fluid fluidList topNavUl ">
+        <li class="fluid topNavLI zeroMargin_desktop zeroMargin_tablet zeroMargin_mobile"><strong><a href="http://calendar.hubcoding.com/" target="_blank" class="linkStyle" title="Nav Link">HAMLETHUB</a></strong></li>
+        <li class="fluid topNavLI"><strong><a href="../freshair/index.html" class="linkStyle" title="Nav Link">COLUMN VIEW</a></strong></li>
+        <li class="fluid topNavLI"><strong><a href="http://calendar.hubcoding.com" target="_blank" class="linkStyle" title="Nav Link">RIDGEFIELD CALENDAR</a></strong></li>
+      </ul>
+    </nav>
+<!--<h1 class="fluid mainHeading headingStyle">HERO TEXT</h1>
+
+    <h6 class="fluid mainTagline textStyle">Some Awesome Hero Tagline that makes it look Good</h6>-->
+  <img src="prospector-header.png" alt=""/>
+
+  </header>
+  <!--HERO section ends here--> 
+
+    <article class="fluid">
+<!--    <section id="sectionOne" class="fluid">
+      <h2 class="sectionText">Section Heading 1</h2>
+      <p class="paraContent">Since 1877, The Fresh Air Fund, a not-for-profit agency, has provided free summer experiences in the country to more than 1.8 million New York City children from low-income communities. Learn more →</p>
+    </section>
+-->
+
+  <!--************************************************************************
+
+    Primary Container starts here
+
+    ****************************************************************************-->
+
+  <section class="fluid" style="background: white;">
+	<section class="hhsidebar" style="padding-left: 75px;">
+      <div class="hh-events-box" data-ids="21" data-width="300px" data-height="350px" data-layout="compact" data-limit="12"></div>
+      <script type="text/javascript">(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "http://calendar.hubcoding.com/connect/js/min/all.js";
+            fjs.parentNode.insertBefore(js, fjs);
+            }
+            (document, 'script', 'hamlethub-wjs'));
+            </script></div>
+
+      	<img src="../freshair/freshair-left-300px.png" alt=""/>
+    </section>
+  	<section class="calendarbox">
+    <!-- code for hh widget -->
+    <div class="hh-events-box" data-ids="21" data-width="785px" data-height="700px" data-layout="box" data-limit="12"></div>
+      <script type="text/javascript">(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "http://calendar.hubcoding.com/connect/js/min/all.js";
+            fjs.parentNode.insertBefore(js, fjs);
+            }
+            (document, 'script', 'hamlethub-wjs'));
+            </script></div>
+
+    <!-- End code for hhwidget -->
+
+	</section>
+  </section>
+    <!--    <section id="sectionTwo" class="fluid ">
+
+      <h2 class="sectionText">Section Heading 2</h2>
+
+      <p class="paraContent">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius sem neque. Integer ornare.</p>
+
+    </section>
+-->
+  </article>
+  <!--Primary content area ends here--> 
+
+  
+
+  <!--************************************************************************
+
+    Gallery starts here - Elements hidden in mobile mode can be revisited by going into manage hidden element mode available in context menu
+
+    ****************************************************************************-->
+
+</div>
+
+<!--Container ends here-->
+
+</body>
+</html>
+
